@@ -5,7 +5,6 @@
  * @author            Alexandro Giles
  * @copyright         2021 Alexandro Giles
  * @license           GPL-2.0-or-later
- *
  * @wordpress-plugin
  * Plugin Name:       CA Debug information
  * Plugin URI:        https://example.com/plugin-name
@@ -19,6 +18,8 @@
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
+ //todo: init function
+ 
 //show the template loaded
 function cagb_which_template_is_loaded() {
 	if ( is_super_admin() ) {
